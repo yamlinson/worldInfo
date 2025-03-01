@@ -1,0 +1,25 @@
+<template>
+  <div id="info">
+    <div v-if="country.id">
+      <h2>{{ country.name }}</h2>
+      <br>
+      <h3>Capital:</h3>
+      <p>{{ country.capital }}</p>
+      <h3>Region:</h3>
+      <p>{{ country.region }}</p>
+      <h3>Income:</h3>
+      <p>{{ country.income }}</p>
+      <h3>Population:</h3>
+      <p>{{ country.population }}</p>
+      <h3>GDP:</h3>
+      <p>{{ country.gdp }}</p>
+    </div>
+    <div v-else>
+      <p class="info">Please select a country</p>
+    </div>
+  </div>
+</template>
+
+<script></script>
+
+<style></style>
