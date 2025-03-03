@@ -31,12 +31,12 @@ nav .router-link-active {
   color: #eee;
   padding: 2px 4px;
 }
-a {
+nav a {
   text-decoration: none;
   color: #eee;
   padding: 2px 4px;
 }
-a:hover, a:active {
+nav a:hover, nav a:active {
   color: #799c7d;
 }
 </style>
