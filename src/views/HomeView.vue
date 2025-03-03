@@ -2,7 +2,7 @@
   import WorldMap from '../components/WorldMap.vue';
   import axios from 'axios';
   import { ref } from 'vue';
-  import { Country } from '../Country';
+  import type { Country } from '../Country';
 
   const country = ref<Country>({
     id: '',
